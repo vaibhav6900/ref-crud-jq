@@ -1,0 +1,45 @@
+
+body {
+    background-color: rgb(184, 190, 190);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  th {
+    background-color: rgb(14, 16, 48);
+    color: beige;
+}
+  tr:hover {background-color: rgb(189, 189, 219);}
+  button {
+    transition-duration: 0.4s;
+    padding: 8px;
+    margin: 6px;
+  }
+  
+  button:hover {
+   
+    background-color: rgb(30, 44, 85); 
+    color: white;
+  }
+  input[type=text]:focus {
+    border: 3px solid #4d56a5;
+ 
+  }
+  input[type=text] {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 8px;
+  }
+  .update {
+    display: none;
+  }
